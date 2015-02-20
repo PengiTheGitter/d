@@ -113,7 +113,7 @@ body {
 }
 
 a {
-	color: #ca3c08;
+	color: #0065B3;
 	text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ a:focus {
 
 a:active,
 a:hover {
-	color: #ea9629;
+	color: #0096FF;
 	outline: 0;
 }
 
@@ -869,7 +869,7 @@ div.nav-menu > ul {
 }
 
 .nav-menu li a {
-	color: #141412;
+	color: #FFFFFF;
 	display: block;
 	font-size: 15px;
 	line-height: 1;
@@ -881,14 +881,14 @@ div.nav-menu > ul {
 .nav-menu li a:hover,
 .nav-menu li:focus > a,
 .nav-menu li a:focus {
-	background-color: #220e10;
+	background-color: #0F0F0F; /* HOOFDMENU KOPPEN ACHTERGROND */
 	color: #fff;
 }
 
 .nav-menu .sub-menu,
 .nav-menu .children {
-	background-color: #220e10;
-	border: 2px solid #f7f5e7;
+	background-color: #0F0F0F; /* SUBMENU ACHTERGROND */
+	border: 2px solid #FFFFFF;
 	border-top: 0;
 	padding: 0;
 	position: absolute;
@@ -918,7 +918,7 @@ ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 ul.nav-menu ul a:focus,
 .nav-menu ul ul a:focus {
-	background-color: #db572f;
+	background-color: #333333; /* SUBMENU KNOPPEN ACHTERGROND HOVER */
 }
 
 ul.nav-menu li:hover > ul,
@@ -945,7 +945,9 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #f7f5e7;
+	background-color: #408CC6; /* MENU BALK KLEUR ACHTERGROND */
+	background-image: url("navbar-pattern.png");
+	background-repeat: repeat-x;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
@@ -2062,7 +2064,7 @@ footer.entry-meta {
  */
 
 .page-header {
-	background-color: #e8e5ce;
+	background-color: #FFB6C1; /* BOVENKANT TITEL ONDERWERP KOP KLEUR ACHTERGROND */
 }
 
 .page-title {
@@ -2566,11 +2568,12 @@ footer.entry-meta {
 }
 
 .site-footer a {
-	color: #686758;
+	color: #000000;
+	display:none;
 }
 
 .site-footer .sidebar-container {
-	background-color: #220e10;
+	background-color: #1A1A1A;
 	padding: 20px 0;
 }
 
@@ -2618,6 +2621,7 @@ footer.entry-meta {
 	max-width: 1040px;
 	padding: 30px 0;
 	width: 100%;
+	display:none;
 }
 
 #wpstats {
